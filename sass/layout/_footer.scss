@@ -1,0 +1,116 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+    background-color: var(--background-section-color);
+    color: #ffffff;
+  }
+  
+  .logo-white {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 0;
+  
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .address {
+    font-style: normal;
+  }
+  .address-link {
+    color: #ffffff;
+  }
+  
+  .contacts-link-white {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .address-item {
+    margin-bottom: 9px;
+  }
+  
+  .join-us {
+      margin-right: 93px;
+  }
+  
+  .join-us-title, .sign-up-title {
+    margin-bottom: 20px;
+  
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .footer-social-list {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .join-us-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      width: 44px;
+      height: 44px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+  
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .join-us-link:hover, .join-us-link:focus {
+      background-color: var(--accent-color);
+  }
+  
+  .footer-social-item + .footer-social-item {
+    margin-left: 10px;
+  }
+  
+  .footer-social-icon {
+      fill: #ffffff;
+  }
+  
+  .footer-wrap {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .contact-us-footer {
+      flex-grow: 1;
+    margin-right: 70px;
+  }
+  
+  
+  .sign-up-form {
+      display: flex;
+      align-items: baseline;
+  }
+  
+  .sign-up-btn {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 12px;
+      width: 200px;
+      padding-right: 28px;
+      padding-left: 28px;
+  }
+  
+  .send-icon {
+      margin-left: 10px;
+      fill: #fff;
+  }
+  
+  .sign-up-input {
+      width: 358px;
+      height: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+      background-color: transparent;
+      padding: 15px;
+      color: #fff;
+      outline: none;
+  }
