@@ -2,7 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
   
-    background-color: var(--background-section-color);
+    background-color: $background-section-color;
     color: #ffffff;
   }
   
@@ -62,7 +62,7 @@
   }
   
   .join-us-link:hover, .join-us-link:focus {
-      background-color: var(--accent-color);
+      background-color: $accent-color;
   }
   
   .footer-social-item + .footer-social-item {
@@ -111,6 +111,6 @@
       border-radius: 4px;
       background-color: transparent;
       padding: 15px;
-      color: #fff;
+      color: #ffffff;
       outline: none;
   }

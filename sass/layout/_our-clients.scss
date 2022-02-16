@@ -26,10 +26,10 @@
 
 .our-clients-link:hover,
 .our-clients-link:focus {
-    border: 1px solid var(--accent-color);
+    border: 1px solid $accent-color;
 }
 
 .our-clients-link:hover .our-clients-icon,
 .our-clients-link:focus .our-clients-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
 } 

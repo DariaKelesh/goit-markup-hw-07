@@ -4,7 +4,7 @@
   }
   
   .header-link {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -14,7 +14,7 @@
   
   .header-link:hover,
   .header-link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
 
