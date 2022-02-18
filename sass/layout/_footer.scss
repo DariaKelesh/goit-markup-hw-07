@@ -45,7 +45,7 @@
       margin-right: 93px;
   }
   
-  .join-us-title, .sign-up-title {
+  .join-us__title, .sign-up__title {
     margin-bottom: 20px;
   
     text-transform: uppercase;
@@ -54,12 +54,12 @@
     font-weight: 700;
   }
   
-  .footer-social-list {
+  .join-us__list {
       display: flex;
       justify-content: center;
   }
   
-  .join-us-link {
+  .join-us__link {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -72,15 +72,15 @@
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .join-us-link:hover, .join-us-link:focus {
+  .join-us__link:hover, .join-us__link:focus {
       background-color: $accent-color;
   }
   
-  .footer-social-item + .footer-social-item {
+  .join-us__item + .join-us__item {
     margin-left: 10px;
   }
   
-  .footer-social-icon {
+  .join-us__icon {
       fill: #ffffff;
   }
   
@@ -88,12 +88,12 @@
 
   
   
-  .sign-up-form {
+  .sign-up__form {
       display: flex;
       align-items: baseline;
   }
   
-  .sign-up-btn {
+  .sign-up__btn {
       display: inline-flex;
       align-items: center;
       margin-left: 12px;
@@ -102,12 +102,12 @@
       padding-left: 28px;
   }
   
-  .send-icon {
+  .sign-up__icon {
       margin-left: 10px;
       fill: #fff;
   }
   
-  .sign-up-input {
+  .sign-up__input {
       width: 358px;
       height: 50px;
       border: 1px solid rgba(255, 255, 255, 0.3);
