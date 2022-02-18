@@ -3,7 +3,7 @@
     padding-top: 94px;
   }
   
-  .section-title {
+  .section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -11,13 +11,14 @@
     margin-bottom: 50px;
   }
   
-  .section-subtitle {
+  .section__subtitle {
     margin-bottom: 10px;
   
     font-weight: 700;
     line-height: 1.16;
   }
-  .subtitle-text {
+  
+  .section__text {
     font-size: 14px;
     line-height: 1.71;
     color: $secondary-text-color;

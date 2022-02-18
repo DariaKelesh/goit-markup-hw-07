@@ -5,21 +5,16 @@
     border-bottom: 1px solid #ececec;
   }
   
-  .header-container {
+  .header__container {
     display: flex;
     align-items: center;
   }
   
-  .header-wrap {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-list {
+  .site-nav__list {
     display: flex;
   }
   
-  .header-item:not(:last-child) {
+  .site-nav__item:not(:last-child) {
     margin-right: 50px;
   }
 

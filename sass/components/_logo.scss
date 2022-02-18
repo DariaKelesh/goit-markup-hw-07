@@ -1,10 +1,19 @@
 .logo {
     margin-right: 93px;
-  
-    color: #000000;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
+  }
+
+.logo--dark-theme {
+    color: #000000;
+}
+
+.logo--light-theme {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 0;
+    color: #ffffff;
   }
   
   .web {

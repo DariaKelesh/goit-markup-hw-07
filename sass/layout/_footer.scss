@@ -5,29 +5,40 @@
     background-color: $background-section-color;
     color: #ffffff;
   }
-  
-  .logo-white {
-    display: inline-block;
-    margin-bottom: 20px;
-    margin-right: 0;
-  
-    color: #ffffff;
-    text-decoration: none;
+
+  .footer__wrap {
+    display: flex;
+    align-items: baseline;
   }
+
+  .footer__contact-us {
+    flex-grow: 1;
+    margin-right: 70px;
+    }
   
   .address {
     font-style: normal;
   }
-  .address-link {
+
+  .address__link {
     color: #ffffff;
   }
+
+  .contacts-nav--light-theme {
+      display: block;
+      margin: 0;
+  }
   
-  .contacts-link-white {
+  .contacts-nav__link--light-theme {
     color: rgba(255, 255, 255, 0.6);
   }
   
-  .address-item {
+  .contacts-nav__item--light-theme {
+
     margin-bottom: 9px;
+    & + & {
+        margin-left: 0;
+      }
   }
   
   .join-us {
@@ -73,15 +84,8 @@
       fill: #ffffff;
   }
   
-  .footer-wrap {
-    display: flex;
-    align-items: baseline;
-  }
   
-  .contact-us-footer {
-      flex-grow: 1;
-    margin-right: 70px;
-  }
+
   
   
   .sign-up-form {
