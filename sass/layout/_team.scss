@@ -1,11 +1,10 @@
+
 .team {
-    background-color: #f5f4fa;
-  }
-  .team__list {
     display: flex;
+    list-style: none;
   }
   
-  .team__item {
+ .team__item {
     width: calc((100% - 90px) / 4);
         &:not(:last-child) {
             margin-right: 30px;
@@ -23,12 +22,17 @@
     border-radius: 0px 0px 4px 4px;
   }
   
-  .team__name {
+  .team__title {
     font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.16;
   }
   
   .team__position {
     font-size: 16px;
+    line-height: 1.71;
+    color: $secondary-text-color;
   }
   
   .socials {
@@ -36,6 +40,7 @@
       justify-content: center;
       align-items: center;
       margin-top: 16px;
+      list-style: none;
   }
 
   .socials__item + .socials__item {
@@ -46,6 +51,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      text-decoration: none;
       width: 44px;
       height: 44px;
       border-radius: 50%;

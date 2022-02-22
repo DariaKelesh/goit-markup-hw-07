@@ -1,11 +1,13 @@
-.clients__list {
+.clients{
     display: flex;
     justify-content: center;
+    list-style: none;
 }
 .clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;

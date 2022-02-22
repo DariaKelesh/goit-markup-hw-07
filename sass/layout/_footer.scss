@@ -57,12 +57,14 @@
   .join-us__list {
       display: flex;
       justify-content: center;
+      list-style: none;
   }
   
   .join-us__link {
       display: flex;
       justify-content: center;
       align-items: center;
+      text-decoration: none;
   
       width: 44px;
       height: 44px;
