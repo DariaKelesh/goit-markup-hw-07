@@ -1,12 +1,13 @@
 .contacts-nav {
     display: flex;
     margin-left: auto;
+    list-style: none;
   }
   
   .contacts-nav__link {
     display: flex;
     align-items: center;
-  
+    text-decoration: none;
     color: $secondary-text-color;
     font-weight: 500;
     line-height: 1.71;

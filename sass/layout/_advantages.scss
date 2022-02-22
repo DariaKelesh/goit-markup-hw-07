@@ -1,6 +1,7 @@
   
-  .advantages__list {
+  .advantages {
     display: flex;
+    list-style: none;
   }
   
   .advantages__item {
@@ -20,7 +21,16 @@
       margin-bottom: 30px;
   }
 
-  .advantages__descr {
+  .advantages__title {
     font-size: 14px;
     text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.16;
+  }
+
+  .advantages__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: $secondary-text-color;
   }
